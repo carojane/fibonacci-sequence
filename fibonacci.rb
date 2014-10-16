@@ -1,4 +1,4 @@
-def fib(digit, array = [0, 1])
+def fib(digit, array = [1, 1])
   array = array
   until array.length == digit
     next_digit = array[-1] + array[-2]
